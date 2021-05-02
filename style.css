@@ -1,0 +1,101 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#wrapper{
+    width: 350px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: -1px 2px 22px 6px rgba(60,60,69,0.75);
+-webkit-box-shadow: -1px 2px 22px 6px rgba(60,60,69,0.75);
+-moz-box-shadow: -1px 2px 22px 6px rgba(60,60,69,0.75);
+background-color: rgb(209, 211, 212);
+}
+#wrapper input{
+    margin: 6px;
+    width: 90%;
+    height: 30px;
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(195, 194, 192);
+    color: rgb(44, 43, 43);
+    border: none;
+
+}
+.dodaj{
+    width: 90%;
+    height:30px;
+    background-color:rgb(91, 133, 231);
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    
+
+}
+
+#wrapper button:hover{
+    opacity: .7;
+}
+
+.name-contact{
+    list-style:circle;
+    
+}
+.number-contact{
+    list-style: none;
+}
+
+
+.delete-btn{
+    width: 90%;
+    height:30px;
+    background-color:rgb(163, 16, 16);
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.det-btn{
+    width: 90%;
+    height:30px;
+    background-color:rgb(90, 216, 68);
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.none{
+    display: none;
+}
+
+#details{
+    width: 300px;
+    background-color: rgb(214, 216, 219);
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    height: 500px;
+    
+}
+
+.photo-user{
+    width: 150px;
+    border: 1px solid black;
+
+}
